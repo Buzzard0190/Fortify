@@ -1,0 +1,91 @@
+Christopher Hight
+SID 11483028
+chris.hight@wsu.edu
+CS 447 Game Design
+Game: Fortify v1.0
+
+Game Controls:
+Game controls are based around mouse controls.  The tower items and spells can be dragged and dropped from the sidebar onto the game board.  
+
+There is a single spacebar requirement to enter the level when on a splash screen.
+
+
+
+
+Cheat Codes:
+L_Shift + 1 - This will take you to the first level
+L_Shift + 2 - This will take you to the second level
+
+
+
+
+Debug Codes:
+'d' + 1 - This will toggle the debug console
+'d' + 2 - This toggles the lines showing game grid
+'d' + 3 - This toggles paths showing dijkstra algorithm
+'d' + 4 - This toggles a yellow number in grid showing collisions
+'d' + 5 - This toggles a blue number in grid showing tile weights
+
+
+
+
+Low Bar Goals:
+Monster pathfinding in complex situations - Monster pathfind to the cleric no matter the situation that they are placed in.
+Per level ability unlocks - The second level provides spells guiding bolt and mass heal that are not available in the first level.  There is also a new monster type.
+Smart archers - Archers search an area of 4 tile widths looking for enemies and will fire in that direction.
+Projectile collision detection - This was abandoned and a different balance option was implimented.
+
+State-based spells - This is represented by heals and shields.  The characters state will change or be temporarly altered if a spell is cast in it.
+
+Units / monsters with different abilities - The player has melee and ranged units.  The monsters have two different units however the only difference is in health and their armor class is higher making the skeletons harder to hit.
+
+Health Bars - This is represented by the red bar over the characters units.
+
+Health Bar - Shield Buff - this is represented by the blue bar over the characters units.
+
+
+
+
+High Bar Goals:
+On hover provide information - was not able to impliment.
+
+Attack variability / defense variability - This is implimented on all characters and monsters.  They all have different healths, different armor classes, different attack strengths and guiding bolt also avoids armor class.  This is done in a sequence using dungeons and dragons or RPG style play, character attacking rolls a 'dice' and applies any modifiers and compares to unit defending units armor class.  If this roll is lower, no attack happens, if this is higher the character will roll an attack 'dice' to find out how hard they hit the defending unit.  This was added to discourage predictable behaivor in play. 
+
+Character Balancing - currently the player is more powerful. This objective feels as though it could be neverending. 
+
+Additional units and unit upgrades - I sadly did not have enough time to add more units.
+
+Choice of specific units to use within a level - This would have only been helpful if i was able to create more units.
+
+
+
+
+Licensing:
+Inspiration - Inspiration for Fortify comes from the board game Castle Panic published by Fireside games. Images, descriptions and videos can be found at https://boardgamegeek.com/boardgame/43443/castle-panic and if you wish to visit the publishers website you can find that at http://firesidegames.com/games/castle-panic/ .  
+
+Images - 
+Most of my resources game from opengameart.com, others were pulled from google.
+Plants  - http://opengameart.org/content/lpc-plant-repack
+Trees and bushes - http://opengameart.org/content/trees-bushes
+Castle and walls - http://opengameart.org/content/castle-tiles-for-rpgs
+Spell icons - Thanks to my favorite RPG of all time, Ultima Online, for unknowingly letting me use their spellbook icons. Taken from Gaz's spellbook on shard Sonoma.
+Goblin - http://opengameart.org/content/lpc-goblin
+Scroll - http://www.freeimages.com/premium/blank-antique-scroll-12779
+Cleric, swordsman, archer, skeleton characters - http://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+Terrain - http://opengameart.org/content/lpc-terrain-repack
+
+Card frame - https://www.boards.ie/b/thread/2055516819?
+Cleric card image - http://orig08.deviantart.net/4da7/f/2013/106/d/c/cleric_comm_by_yamao-d61yq9x.jpg
+Archer card image - https://s-media-cache-ak0.pinimg.com/564x/9b/b7/60/9bb76063f1cf07311fe3166d7cfe4d84.jpg
+Swordsman card image - https://s-media-cache-ak0.pinimg.com/564x/d3/14/65/d3146532c2dca99213e9ed71febc7393.jpg
+
+Game over background - http://shushi168.com/death-wallpaper/36060178.html
+Level splash screen background - https://s-media-cache-ak0.pinimg.com/originals/d0/cc/f0/d0ccf09ffcc944c3fd710f033866877e.jpg
+
+
+Any credit not given of items represented in this game are not intentional.  Please contact me at chris.hight@wsu.edu and credit will be given and licensing information will be updated.
+
+
+
+
+

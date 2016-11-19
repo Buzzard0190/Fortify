@@ -1,0 +1,23 @@
+## Resolved Issues ##
+**[1]**		Import tiled map and test slick/tiled compatibility
+**[2]**		Setup the sidebar and start to add icons 
+**[Repair]**Setup to do a repair of my files after a turn back due to a corupt .project file
+**[7]**		Implement pathfinding
+**[3]**		Add some walls and start to add wall placement
+**[4]**		Add Archer and Swordsman placement
+**[4.1]**	Add Cleric and start to add some animations
+**[8]**		resolve pathfinding with walls
+**[5]**		Add low level monster with basic movement - goblin
+**[10]**	Add health bars and ability to heal and shield
+**[11]**	Setup character and monster collisions and attack
+**[6]**		Setup archer ranged attack
+**[9]**		Add card drawing for additional units
+**[13]**	Add level 2
+
+## Open Issues ##
+
+**[12]**	add some animations
+**[14]**	Balance game
+
+	
+
