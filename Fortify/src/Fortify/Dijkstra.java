@@ -77,7 +77,7 @@ public class Dijkstra {
 
 
 
-//used in priority queue
+//used in priority queue a
 class myComparator implements Comparator<Node> {
 
 	@Override
